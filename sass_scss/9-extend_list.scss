@@ -1,0 +1,15 @@
+/* Learning extended */
+%attribute-extended {
+  font-size : 12px;
+}
+.info{
+  @extend %attribute-extended ;
+}
+.success{
+  color : #00FF00 ;
+  @extend %attribute-extended ;
+}
+.warning{
+  color : #FF0000 ;
+  @extend %attribute-extended;
+}
