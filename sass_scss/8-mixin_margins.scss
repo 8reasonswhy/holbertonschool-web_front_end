@@ -1,0 +1,11 @@
+/* apprendre le mixxing truc */
+@mixin margin($value) {
+  margin-left :$value;
+  margin-right : $value;
+}
+body{
+  @include margin($value :10px);
+}
+div{
+  @include margin($value :15px);
+}
