@@ -540,3 +540,18 @@
       align-items: center;
       min-height: 40vh;
     }
+    .main-article{
+      padding: 5rem 0;
+    }
+    /* Post
+    ============================= */
+    .post{
+      display: flex;
+    }
+    .post-content{
+      width: 100%;
+    }
+    .post-aside{
+      order: -1;
+      min-width: 20%;
+    }
